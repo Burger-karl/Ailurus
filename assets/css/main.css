@@ -630,6 +630,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
+  background: url(../img/vecteezy_sorghum-or-jowar-grain-field_5074525.jpg ) center/cover no-repeat;
 }
 
 .about h3 {
@@ -795,13 +796,18 @@ section {
 }
 
 .why-us .why-box h3 {
-  font-weight: 700;
+  font-weight: var(--font-primary-weight);
+  font-family: var(--font-primary-family);
+  font-style: var(--font-primary-style);
   font-size: 34px;
   margin-bottom: 30px;
 }
 
 .why-us .why-box p {
   margin-bottom: 30px;
+  font-family: var(--font-secondary-family);
+  font-weight: var(--font-secondary-weight);
+  font-style: var(--font-secondary-style);
 }
 
 .why-us .why-box .more-btn {
@@ -1171,6 +1177,14 @@ section {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
+}
+
+
+@media (max-width: 640px) {
+  /* .testimonials .testimonial-item .testimonial-img {
+    width: 100px;
+    height: 100px;  
+  }     */
 }
 
 /*--------------------------------------------------------------
